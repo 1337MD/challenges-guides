@@ -1,4 +1,4 @@
-The FLag Within
+The Flag Within
 =================
 
 **Solution author:** https://twitter.com/1337Moldova
