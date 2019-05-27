@@ -1,7 +1,7 @@
 Broken Matryoshka
 =================
 
-**Solution author:** https://twitter.com/s_persianov
+**Solution author:** https://twitter.com/1337Moldova
 
 **Description:** Analyze and repair `broken_matryoshka` file. Extract the secret. Flag looks like: `1337.MD{`*something_random_or_not*`}`
 
