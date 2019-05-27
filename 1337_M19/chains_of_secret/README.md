@@ -1,7 +1,7 @@
 Chain of Secrets
 ================
 
-**Solution author:** https://twitter.com/s_persianov
+**Solution author:** https://twitter.com/1337Moldova
 
 **Description:** Extract the flag from given JPEG file. Flag looks like: `1337.MD{`*something_random_or_not*`}`
 
