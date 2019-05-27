@@ -1,7 +1,7 @@
 Insider Threat
 ================
 
-**Solution author:** 1337.MD
+**Solution author:** https://twitter.com/1337Moldova
 
 **Description:** Find the secret John had stolen. Flag looks like: `1337.MD{`*something_random_or_not*`}`
 
