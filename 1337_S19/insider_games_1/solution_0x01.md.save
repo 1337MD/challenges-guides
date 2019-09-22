@@ -1,0 +1,28 @@
+Insider Games #1
+================
+
+**Solution author:** https://twitter.com/s_persianov
+
+**Description:** Someone is constantly leaking our internal data to competitors. 
+Our IT Department captured network traffic from multiple employees. 
+Find who’s doing it.
+
+Extract the flag from given traffic.pcap file. Flag looks like: `1337.MD{`*something_random_or_not*`}`
+
+**Walkthrough:** After a thorough analysis of the .pcap file, we can see that there are multiple DNS requests/replies
+captured by our sniffer. Each DNS request looks like:
+
+![image](https://user-images.githubusercontent.com/51073630/65370218-4b46c600-dc4e-11e9-82c3-8f86879a7e4b.png)
+
+6TkRrdE9Ea3ROemd0T1RrdE5UUXRNVEU1TFRFeE9TMHhNVGt0TVRBPQ1337mdTkRrdE9Ea3ROemd0T1RrdE5UUXRNVEU1TFRFeE9TMHhNVGt0TVRBPQ.1337.md
+
+
+
+This was one of the challenges marked `Easy` during the S'19 CTF and it is about Error Level Analysis in images.
+Well known tehcnique in Photos Forensics field.
+
+In order to solve it we can use the first website, which comes up when we search "Photo forensics" in Google.
+
+Check this link to see the result: [Foto Forensics](http://fotoforensics.com/analysis.php?id=6f8f4a7af6ac8fbba23177d00a0c800240d2b882.26789&fmt=ela)
+
+We can see that the flag is: `1337.MD{ELA_for_the_win}`
